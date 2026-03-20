@@ -1,0 +1,683 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "39db456e-5666-4abe-b70f-216b38d36ad5",
+          "type": "front-end",
+          "name": "Public App",
+          "slug": "39db456e-5666-4abe-b70f-216b38d36ad5",
+          "isPublic": null,
+          "isMaintenanceOn": false,
+          "icon": "draghandle",
+          "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
+          "currentVersionId": null,
+          "userId": "5cbda7e2-fc63-47c2-a7f7-64f12517aa85",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "isInitialisedFromPrompt": false,
+          "appGeneratedFromPrompt": false,
+          "appBuilderMode": "visual",
+          "aiGenerationMetadata": null,
+          "createdAt": "2026-03-20T15:22:30.304Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2026-03-20T15:22:30.304Z",
+          "__loaded": true,
+          "editingVersion": {
+            "id": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+              "backgroundFxQuery": "",
+              "appMode": "light"
+            },
+            "pageSettings": null,
+            "showViewerNavigation": true,
+            "homePageId": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+            "appId": "39db456e-5666-4abe-b70f-216b38d36ad5",
+            "currentEnvironmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
+            "promotedFrom": null,
+            "parentVersionId": null,
+            "status": "PUBLISHED",
+            "description": "",
+            "publishedAt": null,
+            "releasedAt": null,
+            "createdAt": "2026-03-20T15:22:30.636Z",
+            "updatedAt": "2026-03-20T15:26:56.104Z"
+          },
+          "components": [
+            {
+              "id": "b4519f39-7414-498e-95e6-360b8d8fad4d",
+              "name": "Students_Record",
+              "type": "Table",
+              "pageId": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "dataSourceSelector": {
+                  "value": "{{queries.ffacbb39-6ef1-4767-8d47-04ef648aa36a.data}}"
+                },
+                "data": {
+                  "value": "{{ [ \n\t\t{ id: 1, name: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2022', phone: 9876543210, interest: ['Reading', 'Traveling','Photography'], photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n\t\t{ id: 2, name: 'Liam Patel', email: 'liam.patel@example.com', date: '20/09/2021', phone: 8765432109, interest: ['Cooking','Gardening','Hiking'], photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n\t\t{ id: 3, name: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '01/01/2023', phone: 7654321098, interest: ['Music','Dancing','Crafting'], photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n\t\t{ id: 4, name: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '10/11/2022', phone: 6543210987, interest: ['Reading', 'Traveling', 'Volunteering'], photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n\t\t{ id: 5, name: 'William Sanchez', email: 'william.sanchez@example.com', date: '07/01/2021', phone: 4321098765, interest: ['Music', 'Dancing', 'Hiking'], photo: 'https://reqres.in/img/faces/4-image.jpg' }, \n\t\t{ id: 6, name: 'Ethan Morales', email: 'ethan.morales@example.com', date: '05/11/2021', phone: 2109876543, interest: ['Cooking', 'Traveling', 'Photography'], photo: 'https://reqres.in/img/faces/6-image.jpg' }, \n\t\t{ id: 7, name: 'Mia Tiana', email: 'mia.tiana@example.com', date: '21/11/2022', phone: 1098705217, interest: ['Music', 'Gardening', 'Hiking'], photo: 'https://reqres.in/img/faces/2-image.jpg' }, \n\t\t{ id: 8, name: 'Lucas Ramirez', email: 'lucas.ramirez@example.com', date: '31/03/2023', phone: 9876543210, interest: ['Reading', 'Dancing', 'Crafting'], photo: 'https://reqres.in/img/faces/9-image.jpg' }, \n\t\t{ id: 9, name: 'Alexander Vela', email: 'alexander.vela@example.com', date: '07/09/2022', phone: 7654321098, interest: ['Music','Gardening','Photography'], photo: 'https://reqres.in/img/faces/8-image.jpg' }, \n\t\t{ id: 10, name: 'Michael Reyes', email: 'michael.reyes@example.com', date: '25/12/2021', phone: 5432109876, interest: ['Cooking','Crafting','Volunteering'], photo: 'https://reqres.in/img/faces/10-image.jpg' } \n] }}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "name": "id",
+                      "key": "id",
+                      "id": "e3ecbf7fa52c4d7210a93edb8f43776267a489bad52bd108be9588f790126737",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 30,
+                      "columnType": "string"
+                    },
+                    {
+                      "name": "name",
+                      "key": "name",
+                      "id": "5d2a3744a006388aadd012fcc15cc0dbcb5f9130e0fbb64c558561c97118754a",
+                      "autogenerated": true,
+                      "fxActiveFields": [],
+                      "columnSize": 130,
+                      "columnType": "string"
+                    },
+                    {
+                      "id": "969eaaf2-8e9d-42d3-9cc5-54dbedd61554",
+                      "name": "class",
+                      "key": "class",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "c0844fa4-a2fc-4634-a38a-5868f84fdbaf",
+                      "name": "age",
+                      "key": "age",
+                      "columnType": "number",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "f9a0b033-e315-448f-b9bf-a8430edb0b86",
+                      "name": "mobile_number",
+                      "key": "mobile_number",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "124e9115-0970-4806-892a-48e723b65079",
+                      "name": "batch_number",
+                      "key": "batch_number",
+                      "columnType": "number",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                },
+                "dynamicHeight": {
+                  "value": "{{false}}"
+                },
+                "selectRowOnCellEdit": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "columnTitleColor": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "columnBackgroundColor": {
+                  "value": "var(--cc-surface1-surface)"
+                },
+                "containerBackgroundColor": {
+                  "value": "var(--cc-surface1-surface)"
+                },
+                "textColor": {
+                  "value": "var(--cc-primary-text)"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "headerCasing": {
+                  "value": "none"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "6"
+                },
+                "borderColor": {
+                  "value": "var(--cc-weak-border)"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{false}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2026-03-20T15:25:26.297Z",
+              "updatedAt": "2026-03-20T15:26:38.830Z",
+              "layouts": [
+                {
+                  "id": "d525745d-221c-44a7-80c7-d0406efe295c",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 4,
+                  "width": 25,
+                  "height": 460,
+                  "componentId": "b4519f39-7414-498e-95e6-360b8d8fad4d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-03-20T15:25:26.297Z"
+                },
+                {
+                  "id": "2cdbfb7c-814d-48f8-b457-6b94127208d9",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 4,
+                  "width": 25,
+                  "height": 460,
+                  "componentId": "b4519f39-7414-498e-95e6-360b8d8fad4d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2026-03-20T15:25:26.297Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "icon": null,
+              "createdAt": "2026-03-20T15:22:30.304Z",
+              "updatedAt": "2026-03-20T15:22:31.396Z",
+              "autoComputeLayout": true,
+              "appVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false,
+              "url": null,
+              "openIn": "new_tab",
+              "type": "default",
+              "appId": ""
+            }
+          ],
+          "events": [],
+          "dataQueries": [
+            {
+              "id": "ffacbb39-6ef1-4767-8d47-04ef648aa36a",
+              "name": "postgresql1",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "select * from student_data;",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
+              "appVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+              "createdAt": "2026-03-20T15:24:31.558Z",
+              "updatedAt": "2026-03-20T15:25:42.846Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
+              "name": "postgresql",
+              "kind": "postgresql",
+              "type": "default",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
+              "scope": "global",
+              "createdAt": "2026-03-20T15:23:17.262Z",
+              "updatedAt": "2026-03-20T15:24:21.199Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+                "backgroundFxQuery": "",
+                "appMode": "light"
+              },
+              "pageSettings": null,
+              "showViewerNavigation": true,
+              "homePageId": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+              "appId": "39db456e-5666-4abe-b70f-216b38d36ad5",
+              "currentEnvironmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
+              "promotedFrom": null,
+              "parentVersionId": null,
+              "status": "PUBLISHED",
+              "description": "",
+              "publishedAt": null,
+              "releasedAt": null,
+              "createdAt": "2026-03-20T15:22:30.636Z",
+              "updatedAt": "2026-03-20T15:26:56.104Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "0d90a05f-575c-40f0-9050-2aa262fdbd10",
+              "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2026-02-26T09:16:14.076Z",
+              "updatedAt": "2026-02-26T09:16:14.076Z"
+            },
+            {
+              "id": "d6445090-21fe-41c0-ba80-00242d56437a",
+              "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2026-02-26T09:16:14.080Z",
+              "updatedAt": "2026-02-26T09:16:14.080Z"
+            },
+            {
+              "id": "707caa0e-7d4f-43dd-8e13-0863dcbb6771",
+              "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2026-02-26T09:16:14.081Z",
+              "updatedAt": "2026-02-26T09:16:14.081Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "7ccb0e39-56e2-48b0-95bf-146710dd7eb1",
+              "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
+              "environmentId": "707caa0e-7d4f-43dd-8e13-0863dcbb6771",
+              "options": {
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                },
+                "host": {
+                  "value": "localhost",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "ssl_enabled": {
+                  "value": true,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "allow_dynamic_connection_parameters": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssh_enabled": {
+                  "value": "disabled",
+                  "encrypted": false
+                },
+                "ssh_port": {
+                  "value": 22,
+                  "encrypted": false
+                },
+                "ssh_auth_type": {
+                  "value": "private_key",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "edaaee8e-c266-461a-a7be-a9bb21344399",
+                  "encrypted": true
+                },
+                "ca_cert": {
+                  "credential_id": "8b39c4ce-a767-44a8-9c36-03c3674e37ea",
+                  "encrypted": true
+                },
+                "client_key": {
+                  "credential_id": "9531118e-b665-4161-b03e-9becccf2998c",
+                  "encrypted": true
+                },
+                "client_cert": {
+                  "credential_id": "b69e3b00-79bd-4347-b78b-74bf3c2ad969",
+                  "encrypted": true
+                },
+                "root_cert": {
+                  "credential_id": "09878a6e-493c-4bc7-b44a-19001bf2f06f",
+                  "encrypted": true
+                },
+                "connection_string": {
+                  "credential_id": "3e705347-f841-4a17-91ad-0e233bb172e2",
+                  "encrypted": true
+                },
+                "ssh_private_key": {
+                  "credential_id": "10925061-5ac7-4028-8e36-c4301d104b69",
+                  "encrypted": true
+                },
+                "ssh_password": {
+                  "credential_id": "1ead9410-736e-4eef-9a07-9f7e7baaed0b",
+                  "encrypted": true
+                },
+                "ssh_passphrase": {
+                  "credential_id": "f0cf1642-e2ef-4c05-91e2-c20ea27e190a",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2026-03-20T15:23:17.265Z",
+              "updatedAt": "2026-03-20T15:23:17.292Z"
+            },
+            {
+              "id": "927ffe87-fff1-4aa3-847b-3d8f05a6c829",
+              "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
+              "environmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
+              "options": {
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                },
+                "host": {
+                  "value": "localhost",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "ssl_enabled": {
+                  "value": true,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "allow_dynamic_connection_parameters": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssh_enabled": {
+                  "value": "disabled",
+                  "encrypted": false
+                },
+                "ssh_port": {
+                  "value": 22,
+                  "encrypted": false
+                },
+                "ssh_auth_type": {
+                  "value": "private_key",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "fa4131fa-f592-4f35-ab2c-18f0b4ca848e",
+                  "encrypted": true
+                },
+                "ca_cert": {
+                  "credential_id": "f9189d9e-21fa-4ca9-aefe-120fa5b637b0",
+                  "encrypted": true
+                },
+                "client_key": {
+                  "credential_id": "b3b81a93-2e5c-4679-ad57-b6224ef53e3f",
+                  "encrypted": true
+                },
+                "client_cert": {
+                  "credential_id": "7487bbac-b73a-4a0a-8cb3-cb9a8421e459",
+                  "encrypted": true
+                },
+                "root_cert": {
+                  "credential_id": "7f974692-838d-417e-b95b-d33f504c20e7",
+                  "encrypted": true
+                },
+                "connection_string": {
+                  "credential_id": "157323d0-9da6-42ad-acf3-7c6f12c9a55c",
+                  "encrypted": true
+                },
+                "ssh_private_key": {
+                  "credential_id": "abb0e0bf-1d9b-4fe3-97f5-835421aad4b0",
+                  "encrypted": true
+                },
+                "ssh_password": {
+                  "credential_id": "25f77e93-a826-4b56-b5a7-0ddb97ae45f7",
+                  "encrypted": true
+                },
+                "ssh_passphrase": {
+                  "credential_id": "6f1c0b8c-01c2-4d65-b8eb-edfd0d24e221",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2026-03-20T15:23:17.265Z",
+              "updatedAt": "2026-03-20T15:23:17.320Z"
+            },
+            {
+              "id": "faf3d350-f1af-4221-a39b-6fa5dbbc501b",
+              "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
+              "environmentId": "0d90a05f-575c-40f0-9050-2aa262fdbd10",
+              "options": {
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                },
+                "host": {
+                  "value": "9.234.17.31",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "ssl_enabled": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "allow_dynamic_connection_parameters": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssh_enabled": {
+                  "value": "disabled",
+                  "encrypted": false
+                },
+                "ssh_port": {
+                  "value": 22,
+                  "encrypted": false
+                },
+                "ssh_auth_type": {
+                  "value": "private_key",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "64a0c81a-b4e0-4ca7-b4fa-1c887fcd0617",
+                  "encrypted": true
+                },
+                "ca_cert": {
+                  "credential_id": "4ee45dc3-77db-48f5-a88e-b0d7fe44b157",
+                  "encrypted": true
+                },
+                "client_key": {
+                  "credential_id": "8d87df80-478c-4b7e-ae79-2b2ecf396b3e",
+                  "encrypted": true
+                },
+                "client_cert": {
+                  "credential_id": "94c4748d-76df-4c76-bf4d-051f026c28eb",
+                  "encrypted": true
+                },
+                "root_cert": {
+                  "credential_id": "e4ca350b-4a8f-477f-b12a-2eaeee1e674f",
+                  "encrypted": true
+                },
+                "connection_string": {
+                  "credential_id": "36fddddf-bd9c-445c-bc85-24fe167ad182",
+                  "encrypted": true
+                },
+                "ssh_private_key": {
+                  "credential_id": "2db8dc46-826a-4021-addc-42da58e63a91",
+                  "encrypted": true
+                },
+                "ssh_password": {
+                  "credential_id": "861ed13e-1f25-452d-99a6-787468905b38",
+                  "encrypted": true
+                },
+                "ssh_passphrase": {
+                  "credential_id": "f653efe0-daa0-4e2c-840f-7785d129dc5e",
+                  "encrypted": true
+                },
+                "username": {
+                  "value": "postgres",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2026-03-20T15:23:17.265Z",
+              "updatedAt": "2026-03-20T15:24:21.197Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          },
+          "modules": []
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.20.124-ee-lts"
+}
