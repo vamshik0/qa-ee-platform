@@ -7,11 +7,11 @@
           "type": "front-end",
           "name": "Public App",
           "slug": "39db456e-5666-4abe-b70f-216b38d36ad5",
-          "isPublic": null,
+          "isPublic": true,
           "isMaintenanceOn": false,
           "icon": "draghandle",
           "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
-          "currentVersionId": null,
+          "currentVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
           "userId": "5cbda7e2-fc63-47c2-a7f7-64f12517aa85",
           "workflowApiToken": null,
           "workflowEnabled": false,
@@ -21,11 +21,11 @@
           "aiGenerationMetadata": null,
           "createdAt": "2026-03-20T15:22:30.304Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2026-03-20T15:22:30.304Z",
+          "updatedAt": "2026-03-20T15:30:49.134Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "8ed7c81a-607a-4be6-a995-d75002f5750d",
-            "name": "v1",
+            "id": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -38,24 +38,24 @@
             },
             "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+            "homePageId": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
             "appId": "39db456e-5666-4abe-b70f-216b38d36ad5",
             "currentEnvironmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
             "promotedFrom": null,
-            "parentVersionId": null,
+            "parentVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
             "status": "PUBLISHED",
             "description": "",
             "publishedAt": null,
             "releasedAt": null,
-            "createdAt": "2026-03-20T15:22:30.636Z",
-            "updatedAt": "2026-03-20T15:26:56.104Z"
+            "createdAt": "2026-03-20T15:33:58.866Z",
+            "updatedAt": "2026-03-20T15:34:29.561Z"
           },
           "components": [
             {
-              "id": "b4519f39-7414-498e-95e6-360b8d8fad4d",
+              "id": "f4458135-2221-4804-b291-50e9ce13d081",
               "name": "Students_Record",
               "type": "Table",
-              "pageId": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+              "pageId": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
               "parent": null,
               "properties": {
                 "title": {
@@ -68,7 +68,7 @@
                   "value": "{{false}}"
                 },
                 "dataSourceSelector": {
-                  "value": "{{queries.ffacbb39-6ef1-4767-8d47-04ef648aa36a.data}}"
+                  "value": "{{queries.0f708900-2174-4e39-a9c7-ec67870e11fa.data}}"
                 },
                 "data": {
                   "value": "{{ [ \n\t\t{ id: 1, name: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2022', phone: 9876543210, interest: ['Reading', 'Traveling','Photography'], photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n\t\t{ id: 2, name: 'Liam Patel', email: 'liam.patel@example.com', date: '20/09/2021', phone: 8765432109, interest: ['Cooking','Gardening','Hiking'], photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n\t\t{ id: 3, name: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '01/01/2023', phone: 7654321098, interest: ['Music','Dancing','Crafting'], photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n\t\t{ id: 4, name: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '10/11/2022', phone: 6543210987, interest: ['Reading', 'Traveling', 'Volunteering'], photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n\t\t{ id: 5, name: 'William Sanchez', email: 'william.sanchez@example.com', date: '07/01/2021', phone: 4321098765, interest: ['Music', 'Dancing', 'Hiking'], photo: 'https://reqres.in/img/faces/4-image.jpg' }, \n\t\t{ id: 6, name: 'Ethan Morales', email: 'ethan.morales@example.com', date: '05/11/2021', phone: 2109876543, interest: ['Cooking', 'Traveling', 'Photography'], photo: 'https://reqres.in/img/faces/6-image.jpg' }, \n\t\t{ id: 7, name: 'Mia Tiana', email: 'mia.tiana@example.com', date: '21/11/2022', phone: 1098705217, interest: ['Music', 'Gardening', 'Hiking'], photo: 'https://reqres.in/img/faces/2-image.jpg' }, \n\t\t{ id: 8, name: 'Lucas Ramirez', email: 'lucas.ramirez@example.com', date: '31/03/2023', phone: 9876543210, interest: ['Reading', 'Dancing', 'Crafting'], photo: 'https://reqres.in/img/faces/9-image.jpg' }, \n\t\t{ id: 9, name: 'Alexander Vela', email: 'alexander.vela@example.com', date: '07/09/2022', phone: 7654321098, interest: ['Music','Gardening','Photography'], photo: 'https://reqres.in/img/faces/8-image.jpg' }, \n\t\t{ id: 10, name: 'Michael Reyes', email: 'michael.reyes@example.com', date: '25/12/2021', phone: 5432109876, interest: ['Cooking','Crafting','Volunteering'], photo: 'https://reqres.in/img/faces/10-image.jpg' } \n] }}"
@@ -277,60 +277,60 @@
                 }
               },
               "validation": {},
-              "createdAt": "2026-03-20T15:25:26.297Z",
-              "updatedAt": "2026-03-20T15:26:38.830Z",
+              "createdAt": "2026-03-20T15:33:58.855Z",
+              "updatedAt": "2026-03-20T15:33:58.855Z",
               "layouts": [
                 {
-                  "id": "d525745d-221c-44a7-80c7-d0406efe295c",
+                  "id": "470aa59b-f071-422d-96b5-f98f0237f2b1",
                   "type": "desktop",
                   "top": 20,
-                  "left": 4,
-                  "width": 25,
+                  "left": 1,
+                  "width": 32,
                   "height": 460,
-                  "componentId": "b4519f39-7414-498e-95e6-360b8d8fad4d",
+                  "componentId": "f4458135-2221-4804-b291-50e9ce13d081",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-03-20T15:25:26.297Z"
+                  "updatedAt": "2026-03-20T15:34:20.672Z"
                 },
                 {
-                  "id": "2cdbfb7c-814d-48f8-b457-6b94127208d9",
+                  "id": "0732c9c1-50d9-4a23-a8bc-798f3fb374bc",
                   "type": "mobile",
                   "top": 20,
                   "left": 4,
                   "width": 25,
                   "height": 460,
-                  "componentId": "b4519f39-7414-498e-95e6-360b8d8fad4d",
+                  "componentId": "f4458135-2221-4804-b291-50e9ce13d081",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-03-20T15:25:26.297Z"
+                  "updatedAt": "2026-03-20T15:33:58.855Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+              "id": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
               "icon": null,
-              "createdAt": "2026-03-20T15:22:30.304Z",
-              "updatedAt": "2026-03-20T15:22:31.396Z",
+              "createdAt": "2026-03-20T15:33:58.855Z",
+              "updatedAt": "2026-03-20T15:33:58.855Z",
               "autoComputeLayout": true,
-              "appVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+              "appVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false,
               "url": null,
               "openIn": "new_tab",
               "type": "default",
-              "appId": ""
+              "appId": "39db456e-5666-4abe-b70f-216b38d36ad5"
             }
           ],
           "events": [],
           "dataQueries": [
             {
-              "id": "ffacbb39-6ef1-4767-8d47-04ef648aa36a",
+              "id": "0f708900-2174-4e39-a9c7-ec67870e11fa",
               "name": "postgresql1",
               "options": {
                 "mode": "sql",
@@ -340,9 +340,9 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
-              "appVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
-              "createdAt": "2026-03-20T15:24:31.558Z",
-              "updatedAt": "2026-03-20T15:25:42.846Z"
+              "appVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
+              "createdAt": "2026-03-20T15:33:58.855Z",
+              "updatedAt": "2026-03-20T15:34:31.105Z"
             }
           ],
           "dataSources": [
@@ -356,13 +356,13 @@
               "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
               "scope": "global",
               "createdAt": "2026-03-20T15:23:17.262Z",
-              "updatedAt": "2026-03-20T15:24:21.199Z"
+              "updatedAt": "2026-03-20T15:29:39.537Z"
             }
           ],
           "appVersions": [
             {
-              "id": "8ed7c81a-607a-4be6-a995-d75002f5750d",
-              "name": "v1",
+              "id": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
+              "name": "v2",
               "definition": null,
               "globalSettings": {
                 "appInMaintenance": false,
@@ -375,17 +375,17 @@
               },
               "pageSettings": null,
               "showViewerNavigation": true,
-              "homePageId": "3ed7b5b9-8c7f-4152-aba1-e7351aad613e",
+              "homePageId": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
               "appId": "39db456e-5666-4abe-b70f-216b38d36ad5",
               "currentEnvironmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
               "promotedFrom": null,
-              "parentVersionId": null,
+              "parentVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
               "status": "PUBLISHED",
               "description": "",
               "publishedAt": null,
               "releasedAt": null,
-              "createdAt": "2026-03-20T15:22:30.636Z",
-              "updatedAt": "2026-03-20T15:26:56.104Z"
+              "createdAt": "2026-03-20T15:33:58.866Z",
+              "updatedAt": "2026-03-20T15:34:29.561Z"
             }
           ],
           "appEnvironments": [
@@ -431,7 +431,7 @@
                   "encrypted": false
                 },
                 "host": {
-                  "value": "localhost",
+                  "value": "9.234.17.31",
                   "encrypted": false
                 },
                 "port": {
@@ -439,7 +439,7 @@
                   "encrypted": false
                 },
                 "ssl_enabled": {
-                  "value": true,
+                  "value": false,
                   "encrypted": false
                 },
                 "ssl_certificate": {
@@ -497,91 +497,14 @@
                 "ssh_passphrase": {
                   "credential_id": "f0cf1642-e2ef-4c05-91e2-c20ea27e190a",
                   "encrypted": true
+                },
+                "username": {
+                  "value": "postgres",
+                  "encrypted": false
                 }
               },
               "createdAt": "2026-03-20T15:23:17.265Z",
-              "updatedAt": "2026-03-20T15:23:17.292Z"
-            },
-            {
-              "id": "927ffe87-fff1-4aa3-847b-3d8f05a6c829",
-              "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
-              "environmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
-              "options": {
-                "connection_type": {
-                  "value": "manual",
-                  "encrypted": false
-                },
-                "host": {
-                  "value": "localhost",
-                  "encrypted": false
-                },
-                "port": {
-                  "value": 5432,
-                  "encrypted": false
-                },
-                "ssl_enabled": {
-                  "value": true,
-                  "encrypted": false
-                },
-                "ssl_certificate": {
-                  "value": "none",
-                  "encrypted": false
-                },
-                "allow_dynamic_connection_parameters": {
-                  "value": false,
-                  "encrypted": false
-                },
-                "ssh_enabled": {
-                  "value": "disabled",
-                  "encrypted": false
-                },
-                "ssh_port": {
-                  "value": 22,
-                  "encrypted": false
-                },
-                "ssh_auth_type": {
-                  "value": "private_key",
-                  "encrypted": false
-                },
-                "password": {
-                  "credential_id": "fa4131fa-f592-4f35-ab2c-18f0b4ca848e",
-                  "encrypted": true
-                },
-                "ca_cert": {
-                  "credential_id": "f9189d9e-21fa-4ca9-aefe-120fa5b637b0",
-                  "encrypted": true
-                },
-                "client_key": {
-                  "credential_id": "b3b81a93-2e5c-4679-ad57-b6224ef53e3f",
-                  "encrypted": true
-                },
-                "client_cert": {
-                  "credential_id": "7487bbac-b73a-4a0a-8cb3-cb9a8421e459",
-                  "encrypted": true
-                },
-                "root_cert": {
-                  "credential_id": "7f974692-838d-417e-b95b-d33f504c20e7",
-                  "encrypted": true
-                },
-                "connection_string": {
-                  "credential_id": "157323d0-9da6-42ad-acf3-7c6f12c9a55c",
-                  "encrypted": true
-                },
-                "ssh_private_key": {
-                  "credential_id": "abb0e0bf-1d9b-4fe3-97f5-835421aad4b0",
-                  "encrypted": true
-                },
-                "ssh_password": {
-                  "credential_id": "25f77e93-a826-4b56-b5a7-0ddb97ae45f7",
-                  "encrypted": true
-                },
-                "ssh_passphrase": {
-                  "credential_id": "6f1c0b8c-01c2-4d65-b8eb-edfd0d24e221",
-                  "encrypted": true
-                }
-              },
-              "createdAt": "2026-03-20T15:23:17.265Z",
-              "updatedAt": "2026-03-20T15:23:17.320Z"
+              "updatedAt": "2026-03-20T15:29:39.536Z"
             },
             {
               "id": "faf3d350-f1af-4221-a39b-6fa5dbbc501b",
@@ -667,6 +590,91 @@
               },
               "createdAt": "2026-03-20T15:23:17.265Z",
               "updatedAt": "2026-03-20T15:24:21.197Z"
+            },
+            {
+              "id": "927ffe87-fff1-4aa3-847b-3d8f05a6c829",
+              "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
+              "environmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
+              "options": {
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                },
+                "host": {
+                  "value": "9.234.17.31",
+                  "encrypted": false
+                },
+                "port": {
+                  "value": 5432,
+                  "encrypted": false
+                },
+                "ssl_enabled": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "allow_dynamic_connection_parameters": {
+                  "value": false,
+                  "encrypted": false
+                },
+                "ssh_enabled": {
+                  "value": "disabled",
+                  "encrypted": false
+                },
+                "ssh_port": {
+                  "value": 22,
+                  "encrypted": false
+                },
+                "ssh_auth_type": {
+                  "value": "private_key",
+                  "encrypted": false
+                },
+                "password": {
+                  "credential_id": "fa4131fa-f592-4f35-ab2c-18f0b4ca848e",
+                  "encrypted": true
+                },
+                "ca_cert": {
+                  "credential_id": "f9189d9e-21fa-4ca9-aefe-120fa5b637b0",
+                  "encrypted": true
+                },
+                "client_key": {
+                  "credential_id": "b3b81a93-2e5c-4679-ad57-b6224ef53e3f",
+                  "encrypted": true
+                },
+                "client_cert": {
+                  "credential_id": "7487bbac-b73a-4a0a-8cb3-cb9a8421e459",
+                  "encrypted": true
+                },
+                "root_cert": {
+                  "credential_id": "7f974692-838d-417e-b95b-d33f504c20e7",
+                  "encrypted": true
+                },
+                "connection_string": {
+                  "credential_id": "157323d0-9da6-42ad-acf3-7c6f12c9a55c",
+                  "encrypted": true
+                },
+                "ssh_private_key": {
+                  "credential_id": "abb0e0bf-1d9b-4fe3-97f5-835421aad4b0",
+                  "encrypted": true
+                },
+                "ssh_password": {
+                  "credential_id": "25f77e93-a826-4b56-b5a7-0ddb97ae45f7",
+                  "encrypted": true
+                },
+                "ssh_passphrase": {
+                  "credential_id": "6f1c0b8c-01c2-4d65-b8eb-edfd0d24e221",
+                  "encrypted": true
+                },
+                "username": {
+                  "value": "postgres",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2026-03-20T15:23:17.265Z",
+              "updatedAt": "2026-03-20T15:29:16.424Z"
             }
           ],
           "schemaDetails": {
