@@ -17,10 +17,10 @@
   },
   "39db456e-5666-4abe-b70f-216b38d36ad5": {
     "gitAppName": "Public App",
-    "lastCommitMessage": " v2 Version of app Public App promoted from development to staging",
-    "gitVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
-    "lastpushDate": "2026-03-20T15:34:31.274Z",
-    "gitVersionName": "v2",
+    "lastCommitMessage": " v1 Version of app Public App promoted from development to staging",
+    "gitVersionId": "d6ff537b-6a08-4c12-a118-8cedb59d6204",
+    "lastpushDate": "2026-03-20T15:35:56.165Z",
+    "gitVersionName": "v1",
     "lastCommitUser": "lts-dev "
   }
 }

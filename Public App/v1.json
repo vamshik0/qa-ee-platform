@@ -11,7 +11,7 @@
           "isMaintenanceOn": false,
           "icon": "draghandle",
           "organizationId": "2a68bace-9bcd-4c76-a9de-46a0cb1a12b5",
-          "currentVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+          "currentVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
           "userId": "5cbda7e2-fc63-47c2-a7f7-64f12517aa85",
           "workflowApiToken": null,
           "workflowEnabled": false,
@@ -21,11 +21,11 @@
           "aiGenerationMetadata": null,
           "createdAt": "2026-03-20T15:22:30.304Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2026-03-20T15:30:49.134Z",
+          "updatedAt": "2026-03-20T15:34:39.022Z",
           "__loaded": true,
           "editingVersion": {
-            "id": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
-            "name": "v2",
+            "id": "d6ff537b-6a08-4c12-a118-8cedb59d6204",
+            "name": "v1",
             "definition": null,
             "globalSettings": {
               "appInMaintenance": false,
@@ -38,24 +38,24 @@
             },
             "pageSettings": null,
             "showViewerNavigation": true,
-            "homePageId": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
+            "homePageId": "d31e768c-9fe5-4ea9-9879-301791c7f70b",
             "appId": "39db456e-5666-4abe-b70f-216b38d36ad5",
             "currentEnvironmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
             "promotedFrom": null,
-            "parentVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+            "parentVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
             "status": "PUBLISHED",
             "description": "",
             "publishedAt": null,
             "releasedAt": null,
-            "createdAt": "2026-03-20T15:33:58.866Z",
-            "updatedAt": "2026-03-20T15:34:29.561Z"
+            "createdAt": "2026-03-20T15:35:37.748Z",
+            "updatedAt": "2026-03-20T15:35:53.919Z"
           },
           "components": [
             {
-              "id": "f4458135-2221-4804-b291-50e9ce13d081",
+              "id": "2362f93b-160b-42a5-afb6-c165f78be8e7",
               "name": "Students_Record",
               "type": "Table",
-              "pageId": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
+              "pageId": "d31e768c-9fe5-4ea9-9879-301791c7f70b",
               "parent": null,
               "properties": {
                 "title": {
@@ -68,7 +68,7 @@
                   "value": "{{false}}"
                 },
                 "dataSourceSelector": {
-                  "value": "{{queries.0f708900-2174-4e39-a9c7-ec67870e11fa.data}}"
+                  "value": "{{queries.e78f53c3-558f-484e-9429-8dbd87339882.data}}"
                 },
                 "data": {
                   "value": "{{ [ \n\t\t{ id: 1, name: 'Olivia Nguyen', email: 'olivia.nguyen@example.com', date: '15/05/2022', phone: 9876543210, interest: ['Reading', 'Traveling','Photography'], photo: 'https://reqres.in/img/faces/7-image.jpg' }, \n\t\t{ id: 2, name: 'Liam Patel', email: 'liam.patel@example.com', date: '20/09/2021', phone: 8765432109, interest: ['Cooking','Gardening','Hiking'], photo: 'https://reqres.in/img/faces/5-image.jpg' }, \n\t\t{ id: 3, name: 'Sophia Reyes', email: 'sophia.reyes@example.com', date: '01/01/2023', phone: 7654321098, interest: ['Music','Dancing','Crafting'], photo: 'https://reqres.in/img/faces/3-image.jpg' }, \n\t\t{ id: 4, name: 'Jacob Hernandez', email: 'jacob.hernandez@example.com', date: '10/11/2022', phone: 6543210987, interest: ['Reading', 'Traveling', 'Volunteering'], photo: 'https://reqres.in/img/faces/1-image.jpg' }, \n\t\t{ id: 5, name: 'William Sanchez', email: 'william.sanchez@example.com', date: '07/01/2021', phone: 4321098765, interest: ['Music', 'Dancing', 'Hiking'], photo: 'https://reqres.in/img/faces/4-image.jpg' }, \n\t\t{ id: 6, name: 'Ethan Morales', email: 'ethan.morales@example.com', date: '05/11/2021', phone: 2109876543, interest: ['Cooking', 'Traveling', 'Photography'], photo: 'https://reqres.in/img/faces/6-image.jpg' }, \n\t\t{ id: 7, name: 'Mia Tiana', email: 'mia.tiana@example.com', date: '21/11/2022', phone: 1098705217, interest: ['Music', 'Gardening', 'Hiking'], photo: 'https://reqres.in/img/faces/2-image.jpg' }, \n\t\t{ id: 8, name: 'Lucas Ramirez', email: 'lucas.ramirez@example.com', date: '31/03/2023', phone: 9876543210, interest: ['Reading', 'Dancing', 'Crafting'], photo: 'https://reqres.in/img/faces/9-image.jpg' }, \n\t\t{ id: 9, name: 'Alexander Vela', email: 'alexander.vela@example.com', date: '07/09/2022', phone: 7654321098, interest: ['Music','Gardening','Photography'], photo: 'https://reqres.in/img/faces/8-image.jpg' }, \n\t\t{ id: 10, name: 'Michael Reyes', email: 'michael.reyes@example.com', date: '25/12/2021', phone: 5432109876, interest: ['Cooking','Crafting','Volunteering'], photo: 'https://reqres.in/img/faces/10-image.jpg' } \n] }}"
@@ -277,47 +277,47 @@
                 }
               },
               "validation": {},
-              "createdAt": "2026-03-20T15:33:58.855Z",
-              "updatedAt": "2026-03-20T15:33:58.855Z",
+              "createdAt": "2026-03-20T15:35:37.740Z",
+              "updatedAt": "2026-03-20T15:35:37.740Z",
               "layouts": [
                 {
-                  "id": "470aa59b-f071-422d-96b5-f98f0237f2b1",
+                  "id": "c4354577-2380-4abd-8ed8-a68203862cc5",
                   "type": "desktop",
                   "top": 20,
                   "left": 1,
                   "width": 32,
                   "height": 460,
-                  "componentId": "f4458135-2221-4804-b291-50e9ce13d081",
+                  "componentId": "2362f93b-160b-42a5-afb6-c165f78be8e7",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-03-20T15:34:20.672Z"
+                  "updatedAt": "2026-03-20T15:35:37.740Z"
                 },
                 {
-                  "id": "0732c9c1-50d9-4a23-a8bc-798f3fb374bc",
+                  "id": "ac93cf0e-638f-4749-9099-b886c2fda6b6",
                   "type": "mobile",
                   "top": 20,
                   "left": 4,
                   "width": 25,
                   "height": 460,
-                  "componentId": "f4458135-2221-4804-b291-50e9ce13d081",
+                  "componentId": "2362f93b-160b-42a5-afb6-c165f78be8e7",
                   "dimensionUnit": "count",
-                  "updatedAt": "2026-03-20T15:33:58.855Z"
+                  "updatedAt": "2026-03-20T15:35:37.740Z"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
+              "id": "d31e768c-9fe5-4ea9-9879-301791c7f70b",
               "name": "Home",
               "handle": "home",
               "index": 1,
               "disabled": null,
               "hidden": null,
               "icon": null,
-              "createdAt": "2026-03-20T15:33:58.855Z",
-              "updatedAt": "2026-03-20T15:33:58.855Z",
+              "createdAt": "2026-03-20T15:35:37.740Z",
+              "updatedAt": "2026-03-20T15:35:37.740Z",
               "autoComputeLayout": true,
-              "appVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
+              "appVersionId": "d6ff537b-6a08-4c12-a118-8cedb59d6204",
               "pageGroupIndex": 1,
               "pageGroupId": null,
               "isPageGroup": false,
@@ -330,7 +330,7 @@
           "events": [],
           "dataQueries": [
             {
-              "id": "0f708900-2174-4e39-a9c7-ec67870e11fa",
+              "id": "e78f53c3-558f-484e-9429-8dbd87339882",
               "name": "postgresql1",
               "options": {
                 "mode": "sql",
@@ -340,9 +340,9 @@
                 "runOnPageLoad": true
               },
               "dataSourceId": "b0f61310-9a9e-4f0f-b4d1-7009ac6c8924",
-              "appVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
-              "createdAt": "2026-03-20T15:33:58.855Z",
-              "updatedAt": "2026-03-20T15:34:31.105Z"
+              "appVersionId": "d6ff537b-6a08-4c12-a118-8cedb59d6204",
+              "createdAt": "2026-03-20T15:35:37.740Z",
+              "updatedAt": "2026-03-20T15:35:39.473Z"
             }
           ],
           "dataSources": [
@@ -361,8 +361,8 @@
           ],
           "appVersions": [
             {
-              "id": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
-              "name": "v2",
+              "id": "d6ff537b-6a08-4c12-a118-8cedb59d6204",
+              "name": "v1",
               "definition": null,
               "globalSettings": {
                 "appInMaintenance": false,
@@ -375,17 +375,17 @@
               },
               "pageSettings": null,
               "showViewerNavigation": true,
-              "homePageId": "220d6eba-fb0c-4cf4-89b0-da6cc7417ba1",
+              "homePageId": "d31e768c-9fe5-4ea9-9879-301791c7f70b",
               "appId": "39db456e-5666-4abe-b70f-216b38d36ad5",
               "currentEnvironmentId": "d6445090-21fe-41c0-ba80-00242d56437a",
               "promotedFrom": null,
-              "parentVersionId": "8ed7c81a-607a-4be6-a995-d75002f5750d",
+              "parentVersionId": "fd872425-a8ff-4176-8f6a-5c4416bade4e",
               "status": "PUBLISHED",
               "description": "",
               "publishedAt": null,
               "releasedAt": null,
-              "createdAt": "2026-03-20T15:33:58.866Z",
-              "updatedAt": "2026-03-20T15:34:29.561Z"
+              "createdAt": "2026-03-20T15:35:37.748Z",
+              "updatedAt": "2026-03-20T15:35:53.919Z"
             }
           ],
           "appEnvironments": [
